@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a multi-line script
         run: |
-         curl https://api.datamuse.com/words?sp=*&v=es&md=f
+         curl https://api.datamuse.com/words?sp=*&v=es&md=f&t=f
