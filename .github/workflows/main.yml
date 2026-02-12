@@ -1,0 +1,13 @@
+name: Reminder user to commit
+on:
+  workflow_dispatch:
+jobs:
+  reminderUser:
+    environment:
+      name: ${{ github.ref_name }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a multi-line script
+        run: |
+         curl https://api.datamuse.com/words?sp=*&v=es&md=f
