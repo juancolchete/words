@@ -1,13 +1,10 @@
-name: Reminder user to commit
+name: Es word frequence
 on:
   workflow_dispatch:
 jobs:
-  reminderUser:
-    environment:
-      name: ${{ github.ref_name }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run a multi-line script
-        run: |
-         curl https://api.datamuse.com/words?sp=*&v=es&md=f&t=f
+  upload-git:
+    uses: colchetedao/streakCounter/.github/workflows/git.yml@main
+    secrets: inherit
+    with:
+      exec: |
+        curl https://api.datamuse.com/words?sp=*&v=es&md=f&t=f
