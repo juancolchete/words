@@ -7,4 +7,4 @@ jobs:
     secrets: inherit
     with:
       exec: |
-        curl https://api.datamuse.com/words?sp=*&v=es&md=f&t=f
+        curl https://api.datamuse.com/words?sp=*&v=es&md=f&t=f > esWF.json
