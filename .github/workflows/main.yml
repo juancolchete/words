@@ -9,3 +9,4 @@ jobs:
       exec: |
         curl -o esWF.json https://api.datamuse.com/words?sp=*&v=es&md=f&t=f 
         curl -o enWF.json https://api.datamuse.com/words?sp=*&v=en&md=f&t=f
+        curl https://api.datamuse.com/words?sp=*&v=en&md=f&t=f
