@@ -25,7 +25,7 @@ NF >= 2 {
     }
     
     # Print the key-value pair
-    printf "  \"%s\": %s", $1, $2
+    printf "{\"word\":\"%s\", \"frequence\": %s}", $1, $2
     first = 0
 }
 END {
