@@ -8,4 +8,4 @@ jobs:
     with:
       exec: |
         bash genFrequence.sh
-        bash genTop100.sh
+        bash getTop100.sh
