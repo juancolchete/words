@@ -10,7 +10,7 @@ echo "📥 Downloading and converting to JSON..."
 curl -s "$URL" | awk '
 BEGIN {
     # Start the JSON object
-    print "{"
+    print "["
     first = 1
 }
 NF >= 2 { 
@@ -30,7 +30,7 @@ NF >= 2 {
 }
 END {
     # Close the JSON object
-    print "\n}"
+    print "\n]"
 }' > "$OUTPUT"
 
 echo "✅ Done! Saved to $OUTPUT"
