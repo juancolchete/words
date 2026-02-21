@@ -7,5 +7,6 @@ jobs:
     secrets: inherit
     with:
       exec: |
-        bash genFrequence.sh
+        bash genFrequence.sh en
+        bash genFrequence.sh es
         bash getTop100.sh
