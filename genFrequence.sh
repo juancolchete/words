@@ -1,7 +1,7 @@
 #!/bin/bash
 
-URL="https://raw.githubusercontent.com/hermitdave/FrequencyWords/refs/heads/master/content/2018/en/en_full.txt"
-OUTPUT="en_frequency.json"
+URL="https://raw.githubusercontent.com/hermitdave/FrequencyWords/refs/heads/master/content/2018/$1/$1_full.txt"
+OUTPUT="$1_frequency.json"
 
 echo "📥 Downloading and converting to JSON..."
 
