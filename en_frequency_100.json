@@ -1,0 +1,402 @@
+[
+  {
+    "word": "you",
+    "frequence": 28787591
+  },
+  {
+    "word": "i",
+    "frequence": 27086011
+  },
+  {
+    "word": "the",
+    "frequence": 22761659
+  },
+  {
+    "word": "to",
+    "frequence": 17099834
+  },
+  {
+    "word": "a",
+    "frequence": 14484562
+  },
+  {
+    "word": "'s",
+    "frequence": 14291013
+  },
+  {
+    "word": "it",
+    "frequence": 13631703
+  },
+  {
+    "word": "and",
+    "frequence": 10572938
+  },
+  {
+    "word": "that",
+    "frequence": 10203742
+  },
+  {
+    "word": "'t",
+    "frequence": 9628970
+  },
+  {
+    "word": "of",
+    "frequence": 8915110
+  },
+  {
+    "word": "is",
+    "frequence": 7400675
+  },
+  {
+    "word": "in",
+    "frequence": 7337058
+  },
+  {
+    "word": "what",
+    "frequence": 6900164
+  },
+  {
+    "word": "we",
+    "frequence": 6755687
+  },
+  {
+    "word": "me",
+    "frequence": 6444985
+  },
+  {
+    "word": "this",
+    "frequence": 5739788
+  },
+  {
+    "word": "he",
+    "frequence": 5516364
+  },
+  {
+    "word": "for",
+    "frequence": 5174060
+  },
+  {
+    "word": "my",
+    "frequence": 4938948
+  },
+  {
+    "word": "on",
+    "frequence": 4821861
+  },
+  {
+    "word": "have",
+    "frequence": 4764010
+  },
+  {
+    "word": "your",
+    "frequence": 4610945
+  },
+  {
+    "word": "do",
+    "frequence": 4419883
+  },
+  {
+    "word": "was",
+    "frequence": 4401531
+  },
+  {
+    "word": "'m",
+    "frequence": 4386306
+  },
+  {
+    "word": "no",
+    "frequence": 4374975
+  },
+  {
+    "word": "not",
+    "frequence": 4262273
+  },
+  {
+    "word": "be",
+    "frequence": 4210868
+  },
+  {
+    "word": "are",
+    "frequence": 4203821
+  },
+  {
+    "word": "don",
+    "frequence": 4158644
+  },
+  {
+    "word": "'re",
+    "frequence": 4059719
+  },
+  {
+    "word": "know",
+    "frequence": 3892394
+  },
+  {
+    "word": "can",
+    "frequence": 3826118
+  },
+  {
+    "word": "with",
+    "frequence": 3806977
+  },
+  {
+    "word": "but",
+    "frequence": 3631462
+  },
+  {
+    "word": "all",
+    "frequence": 3544700
+  },
+  {
+    "word": "so",
+    "frequence": 3434152
+  },
+  {
+    "word": "just",
+    "frequence": 3334392
+  },
+  {
+    "word": "there",
+    "frequence": 3148528
+  },
+  {
+    "word": "here",
+    "frequence": 3138591
+  },
+  {
+    "word": "they",
+    "frequence": 3060204
+  },
+  {
+    "word": "like",
+    "frequence": 2983027
+  },
+  {
+    "word": "'ll",
+    "frequence": 2913428
+  },
+  {
+    "word": "get",
+    "frequence": 2883193
+  },
+  {
+    "word": "she",
+    "frequence": 2778359
+  },
+  {
+    "word": "go",
+    "frequence": 2738504
+  },
+  {
+    "word": "if",
+    "frequence": 2630800
+  },
+  {
+    "word": "right",
+    "frequence": 2576821
+  },
+  {
+    "word": "out",
+    "frequence": 2510010
+  },
+  {
+    "word": "about",
+    "frequence": 2487348
+  },
+  {
+    "word": "up",
+    "frequence": 2459855
+  },
+  {
+    "word": "at",
+    "frequence": 2431398
+  },
+  {
+    "word": "him",
+    "frequence": 2431059
+  },
+  {
+    "word": "now",
+    "frequence": 2298830
+  },
+  {
+    "word": "oh",
+    "frequence": 2298308
+  },
+  {
+    "word": "one",
+    "frequence": 2263956
+  },
+  {
+    "word": "come",
+    "frequence": 2203919
+  },
+  {
+    "word": "well",
+    "frequence": 2159909
+  },
+  {
+    "word": "her",
+    "frequence": 2154982
+  },
+  {
+    "word": "how",
+    "frequence": 2140365
+  },
+  {
+    "word": "yeah",
+    "frequence": 2000641
+  },
+  {
+    "word": "'ve",
+    "frequence": 1991871
+  },
+  {
+    "word": "will",
+    "frequence": 1969807
+  },
+  {
+    "word": "got",
+    "frequence": 1968389
+  },
+  {
+    "word": "want",
+    "frequence": 1950845
+  },
+  {
+    "word": "think",
+    "frequence": 1839473
+  },
+  {
+    "word": "as",
+    "frequence": 1792220
+  },
+  {
+    "word": "see",
+    "frequence": 1781493
+  },
+  {
+    "word": "did",
+    "frequence": 1742764
+  },
+  {
+    "word": "good",
+    "frequence": 1741730
+  },
+  {
+    "word": "who",
+    "frequence": 1734491
+  },
+  {
+    "word": "why",
+    "frequence": 1722797
+  },
+  {
+    "word": "from",
+    "frequence": 1709582
+  },
+  {
+    "word": "let",
+    "frequence": 1705262
+  },
+  {
+    "word": "his",
+    "frequence": 1666361
+  },
+  {
+    "word": "yes",
+    "frequence": 1634050
+  },
+  {
+    "word": "when",
+    "frequence": 1531731
+  },
+  {
+    "word": "going",
+    "frequence": 1520767
+  },
+  {
+    "word": "time",
+    "frequence": 1453708
+  },
+  {
+    "word": "an",
+    "frequence": 1449181
+  },
+  {
+    "word": "okay",
+    "frequence": 1428884
+  },
+  {
+    "word": "back",
+    "frequence": 1405024
+  },
+  {
+    "word": "look",
+    "frequence": 1348467
+  },
+  {
+    "word": "us",
+    "frequence": 1346903
+  },
+  {
+    "word": "would",
+    "frequence": 1340070
+  },
+  {
+    "word": "them",
+    "frequence": 1327509
+  },
+  {
+    "word": "where",
+    "frequence": 1322226
+  },
+  {
+    "word": "were",
+    "frequence": 1315964
+  },
+  {
+    "word": "take",
+    "frequence": 1312232
+  },
+  {
+    "word": "then",
+    "frequence": 1275502
+  },
+  {
+    "word": "had",
+    "frequence": 1274537
+  },
+  {
+    "word": "or",
+    "frequence": 1267646
+  },
+  {
+    "word": "been",
+    "frequence": 1265150
+  },
+  {
+    "word": "our",
+    "frequence": 1191941
+  },
+  {
+    "word": "gonna",
+    "frequence": 1188190
+  },
+  {
+    "word": "tell",
+    "frequence": 1176290
+  },
+  {
+    "word": "really",
+    "frequence": 1174710
+  },
+  {
+    "word": "man",
+    "frequence": 1173588
+  },
+  {
+    "word": "some",
+    "frequence": 1166914
+  }
+]
