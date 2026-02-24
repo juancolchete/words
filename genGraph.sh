@@ -60,7 +60,7 @@ cat >"${1}-frequency.html" <<EOL
             {
               name: 'nodeBa',
               value: 20,
-              children: $FIRST_DATA
+              children: [$FIRST_DATA]
             }
           ]
         }
