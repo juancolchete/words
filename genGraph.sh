@@ -1,4 +1,4 @@
-DATA=$(jq 'map({name: .word, value: .frequence})' "en_frequency_100.json")
+DATA=$(jq 'map({name: .word, value: .frequence})' "${1}_frequency_100.json")
 
 cat >"${1}-frequency.html" <<EOL
 <!DOCTYPE html>
