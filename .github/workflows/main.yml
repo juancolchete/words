@@ -10,4 +10,4 @@ jobs:
         bash genFrequence.sh en
         bash genFrequence.sh es
         bash getTop100.sh
-        bash genGraph.sh
+        bash genGraph.sh en
