@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, null, {
+      renderer: 'canvas',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    option = {
+  series: [
+    {
+      type: 'treemap',
+      data: [
+        {
+          name: 'nodeA',
+          value: 10,
+          children: [
+  {
+    "name": "que",
+    "value": 14421005
+  },
+  {
+    "name": "no",
+    "value": 12379505
+  },
+  {
+    "name": "a",
+    "value": 9549646
+  },
+  {
+    "name": "la",
+    "value": 9125471
+  },
+  {
+    "name": "el",
+    "value": 7531226
+  },
+  {
+    "name": "y",
+    "value": 7128745
+  },
+  {
+    "name": "es",
+    "value": 6993497
+  },
+  {
+    "name": "en",
+    "value": 6817324
+  },
+  {
+    "name": "lo",
+    "value": 6041793
+  },
+  {
+    "name": "un",
+    "value": 5605577
+  },
+  {
+    "name": "por",
+    "value": 4454673
+  },
+  {
+    "name": "qué",
+    "value": 4166708
+  },
+  {
+    "name": "me",
+    "value": 3927712
+  },
+  {
+    "name": "una",
+    "value": 3846322
+  },
+  {
+    "name": "los",
+    "value": 3069193
+  },
+  {
+    "name": "se",
+    "value": 3058120
+  },
+  {
+    "name": "te",
+    "value": 3034375
+  },
+  {
+    "name": "con",
+    "value": 3028045
+  },
+  {
+    "name": "para",
+    "value": 2832100
+  },
+  {
+    "name": "está",
+    "value": 2433246
+  },
+  {
+    "name": "mi",
+    "value": 2403204
+  },
+  {
+    "name": "pero",
+    "value": 2369484
+  },
+  {
+    "name": "sí",
+    "value": 2350514
+  },
+  {
+    "name": "si",
+    "value": 2348665
+  },
+  {
+    "name": "bien",
+    "value": 2045290
+  },
+  {
+    "name": "eso",
+    "value": 2029720
+  },
+  {
+    "name": "su",
+    "value": 2005512
+  },
+  {
+    "name": "las",
+    "value": 2001203
+  },
+  {
+    "name": "yo",
+    "value": 1915934
+  },
+  {
+    "name": "del",
+    "value": 1647872
+  },
+  {
+    "name": "como",
+    "value": 1630651
+  },
+  {
+    "name": "aquí",
+    "value": 1625090
+  },
+  {
+    "name": "tu",
+    "value": 1618746
+  },
+  {
+    "name": "al",
+    "value": 1549489
+  },
+  {
+    "name": "más",
+    "value": 1503527
+  },
+  {
+    "name": "le",
+    "value": 1432173
+  },
+  {
+    "name": "esto",
+    "value": 1297847
+  },
+  {
+    "name": "todo",
+    "value": 1296897
+  },
+  {
+    "name": "ya",
+    "value": 1115265
+  },
+  {
+    "name": "estoy",
+    "value": 1092574
+  },
+  {
+    "name": "ahora",
+    "value": 1088174
+  },
+  {
+    "name": "muy",
+    "value": 1086248
+  },
+  {
+    "name": "ha",
+    "value": 1071928
+  },
+  {
+    "name": "esta",
+    "value": 1051900
+  },
+  {
+    "name": "así",
+    "value": 1050332
+  },
+  {
+    "name": "vamos",
+    "value": 1049315
+  },
+  {
+    "name": "algo",
+    "value": 1039192
+  },
+  {
+    "name": "hay",
+    "value": 1014288
+  },
+  {
+    "name": "bueno",
+    "value": 1012700
+  },
+  {
+    "name": "tengo",
+    "value": 954371
+  },
+  {
+    "name": "él",
+    "value": 931487
+  },
+  {
+    "name": "cuando",
+    "value": 931329
+  },
+  {
+    "name": "estás",
+    "value": 917354
+  },
+  {
+    "name": "sé",
+    "value": 911639
+  },
+  {
+    "name": "tú",
+    "value": 906053
+  },
+  {
+    "name": "nos",
+    "value": 866968
+  },
+  {
+    "name": "nada",
+    "value": 863844
+  },
+  {
+    "name": "cómo",
+    "value": 862349
+  },
+  {
+    "name": "este",
+    "value": 858931
+  },
+  {
+    "name": "o",
+    "value": 843972
+  },
+  {
+    "name": "he",
+    "value": 820376
+  },
+  {
+    "name": "ser",
+    "value": 819688
+  },
+  {
+    "name": "tiene",
+    "value": 807065
+  },
+  {
+    "name": "puedo",
+    "value": 806048
+  },
+  {
+    "name": "ella",
+    "value": 800671
+  },
+  {
+    "name": "quiero",
+    "value": 798831
+  },
+  {
+    "name": "hacer",
+    "value": 794408
+  },
+  {
+    "name": "fue",
+    "value": 781449
+  },
+  {
+    "name": "gracias",
+    "value": 779503
+  },
+  {
+    "name": "vez",
+    "value": 767227
+  },
+  {
+    "name": "era",
+    "value": 765725
+  },
+  {
+    "name": "soy",
+    "value": 745166
+  },
+  {
+    "name": "sólo",
+    "value": 741588
+  },
+  {
+    "name": "todos",
+    "value": 686692
+  },
+  {
+    "name": "porque",
+    "value": 685059
+  },
+  {
+    "name": "son",
+    "value": 671394
+  },
+  {
+    "name": "tienes",
+    "value": 670767
+  },
+  {
+    "name": "creo",
+    "value": 651433
+  },
+  {
+    "name": "voy",
+    "value": 639418
+  },
+  {
+    "name": "sabes",
+    "value": 636739
+  },
+  {
+    "name": "estaba",
+    "value": 636659
+  },
+  {
+    "name": "puede",
+    "value": 631326
+  },
+  {
+    "name": "eres",
+    "value": 630024
+  },
+  {
+    "name": "ese",
+    "value": 624205
+  },
+  {
+    "name": "usted",
+    "value": 618844
+  },
+  {
+    "name": "entonces",
+    "value": 609938
+  },
+  {
+    "name": "hola",
+    "value": 601523
+  },
+  {
+    "name": "solo",
+    "value": 590343
+  },
+  {
+    "name": "verdad",
+    "value": 589565
+  },
+  {
+    "name": "casa",
+    "value": 587832
+  },
+  {
+    "name": "tan",
+    "value": 573916
+  },
+  {
+    "name": "quién",
+    "value": 566465
+  },
+  {
+    "name": "sus",
+    "value": 562087
+  },
+  {
+    "name": "tiempo",
+    "value": 556996
+  },
+  {
+    "name": "dos",
+    "value": 556427
+  },
+  {
+    "name": "esa",
+    "value": 553442
+  },
+  {
+    "name": "nunca",
+    "value": 549997
+  },
+  {
+    "name": "dónde",
+    "value": 539643
+  },
+  {
+    "name": "va",
+    "value": 535397
+  }
+]
+        },
+        {
+          name: 'nodeB',
+          value: 20,
+          children: [
+            {
+              name: 'nodeBa',
+              value: 20,
+              children: [{
+  "name": "de",
+  "value": 14459520
+}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
