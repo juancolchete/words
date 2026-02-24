@@ -1,4 +1,5 @@
-DATA=$(jq 'map({name: .word, value: .frequence})' "${1}_frequency_100.json")
+DATA=$(jq 'map({name: .word, value: .frequence}) | [1:100]' "${1}_frequency_100.json")
+FIRST_DATA=$(jq 'map({name: .word, value: .frequence}) | [0]' "${1}_frequency_100.json")
 
 cat >"${1}-frequency.html" <<EOL
 <!DOCTYPE html>
@@ -59,12 +60,7 @@ cat >"${1}-frequency.html" <<EOL
             {
               name: 'nodeBa',
               value: 20,
-              children: [
-                {
-                  name: 'nodeBa1',
-                  value: 20
-                }
-              ]
+              children: $FIRST_DATA
             }
           ]
         }
