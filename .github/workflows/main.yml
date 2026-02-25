@@ -9,6 +9,7 @@ jobs:
       exec: |
         bash genFrequence.sh en
         bash genFrequence.sh es
-        bash getTop100.sh
+        bash getTop100.sh en
+        bash getTop100.sh es
         bash genGraph.sh en
         bash genGraph.sh es
