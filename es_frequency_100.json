@@ -1,0 +1,402 @@
+[
+  {
+    "word": "de",
+    "frequence": 14459520
+  },
+  {
+    "word": "que",
+    "frequence": 14421005
+  },
+  {
+    "word": "no",
+    "frequence": 12379505
+  },
+  {
+    "word": "a",
+    "frequence": 9549646
+  },
+  {
+    "word": "la",
+    "frequence": 9125471
+  },
+  {
+    "word": "el",
+    "frequence": 7531226
+  },
+  {
+    "word": "y",
+    "frequence": 7128745
+  },
+  {
+    "word": "es",
+    "frequence": 6993497
+  },
+  {
+    "word": "en",
+    "frequence": 6817324
+  },
+  {
+    "word": "lo",
+    "frequence": 6041793
+  },
+  {
+    "word": "un",
+    "frequence": 5605577
+  },
+  {
+    "word": "por",
+    "frequence": 4454673
+  },
+  {
+    "word": "qué",
+    "frequence": 4166708
+  },
+  {
+    "word": "me",
+    "frequence": 3927712
+  },
+  {
+    "word": "una",
+    "frequence": 3846322
+  },
+  {
+    "word": "los",
+    "frequence": 3069193
+  },
+  {
+    "word": "se",
+    "frequence": 3058120
+  },
+  {
+    "word": "te",
+    "frequence": 3034375
+  },
+  {
+    "word": "con",
+    "frequence": 3028045
+  },
+  {
+    "word": "para",
+    "frequence": 2832100
+  },
+  {
+    "word": "está",
+    "frequence": 2433246
+  },
+  {
+    "word": "mi",
+    "frequence": 2403204
+  },
+  {
+    "word": "pero",
+    "frequence": 2369484
+  },
+  {
+    "word": "sí",
+    "frequence": 2350514
+  },
+  {
+    "word": "si",
+    "frequence": 2348665
+  },
+  {
+    "word": "bien",
+    "frequence": 2045290
+  },
+  {
+    "word": "eso",
+    "frequence": 2029720
+  },
+  {
+    "word": "su",
+    "frequence": 2005512
+  },
+  {
+    "word": "las",
+    "frequence": 2001203
+  },
+  {
+    "word": "yo",
+    "frequence": 1915934
+  },
+  {
+    "word": "del",
+    "frequence": 1647872
+  },
+  {
+    "word": "como",
+    "frequence": 1630651
+  },
+  {
+    "word": "aquí",
+    "frequence": 1625090
+  },
+  {
+    "word": "tu",
+    "frequence": 1618746
+  },
+  {
+    "word": "al",
+    "frequence": 1549489
+  },
+  {
+    "word": "más",
+    "frequence": 1503527
+  },
+  {
+    "word": "le",
+    "frequence": 1432173
+  },
+  {
+    "word": "esto",
+    "frequence": 1297847
+  },
+  {
+    "word": "todo",
+    "frequence": 1296897
+  },
+  {
+    "word": "ya",
+    "frequence": 1115265
+  },
+  {
+    "word": "estoy",
+    "frequence": 1092574
+  },
+  {
+    "word": "ahora",
+    "frequence": 1088174
+  },
+  {
+    "word": "muy",
+    "frequence": 1086248
+  },
+  {
+    "word": "ha",
+    "frequence": 1071928
+  },
+  {
+    "word": "esta",
+    "frequence": 1051900
+  },
+  {
+    "word": "así",
+    "frequence": 1050332
+  },
+  {
+    "word": "vamos",
+    "frequence": 1049315
+  },
+  {
+    "word": "algo",
+    "frequence": 1039192
+  },
+  {
+    "word": "hay",
+    "frequence": 1014288
+  },
+  {
+    "word": "bueno",
+    "frequence": 1012700
+  },
+  {
+    "word": "tengo",
+    "frequence": 954371
+  },
+  {
+    "word": "él",
+    "frequence": 931487
+  },
+  {
+    "word": "cuando",
+    "frequence": 931329
+  },
+  {
+    "word": "estás",
+    "frequence": 917354
+  },
+  {
+    "word": "sé",
+    "frequence": 911639
+  },
+  {
+    "word": "tú",
+    "frequence": 906053
+  },
+  {
+    "word": "nos",
+    "frequence": 866968
+  },
+  {
+    "word": "nada",
+    "frequence": 863844
+  },
+  {
+    "word": "cómo",
+    "frequence": 862349
+  },
+  {
+    "word": "este",
+    "frequence": 858931
+  },
+  {
+    "word": "o",
+    "frequence": 843972
+  },
+  {
+    "word": "he",
+    "frequence": 820376
+  },
+  {
+    "word": "ser",
+    "frequence": 819688
+  },
+  {
+    "word": "tiene",
+    "frequence": 807065
+  },
+  {
+    "word": "puedo",
+    "frequence": 806048
+  },
+  {
+    "word": "ella",
+    "frequence": 800671
+  },
+  {
+    "word": "quiero",
+    "frequence": 798831
+  },
+  {
+    "word": "hacer",
+    "frequence": 794408
+  },
+  {
+    "word": "fue",
+    "frequence": 781449
+  },
+  {
+    "word": "gracias",
+    "frequence": 779503
+  },
+  {
+    "word": "vez",
+    "frequence": 767227
+  },
+  {
+    "word": "era",
+    "frequence": 765725
+  },
+  {
+    "word": "soy",
+    "frequence": 745166
+  },
+  {
+    "word": "sólo",
+    "frequence": 741588
+  },
+  {
+    "word": "todos",
+    "frequence": 686692
+  },
+  {
+    "word": "porque",
+    "frequence": 685059
+  },
+  {
+    "word": "son",
+    "frequence": 671394
+  },
+  {
+    "word": "tienes",
+    "frequence": 670767
+  },
+  {
+    "word": "creo",
+    "frequence": 651433
+  },
+  {
+    "word": "voy",
+    "frequence": 639418
+  },
+  {
+    "word": "sabes",
+    "frequence": 636739
+  },
+  {
+    "word": "estaba",
+    "frequence": 636659
+  },
+  {
+    "word": "puede",
+    "frequence": 631326
+  },
+  {
+    "word": "eres",
+    "frequence": 630024
+  },
+  {
+    "word": "ese",
+    "frequence": 624205
+  },
+  {
+    "word": "usted",
+    "frequence": 618844
+  },
+  {
+    "word": "entonces",
+    "frequence": 609938
+  },
+  {
+    "word": "hola",
+    "frequence": 601523
+  },
+  {
+    "word": "solo",
+    "frequence": 590343
+  },
+  {
+    "word": "verdad",
+    "frequence": 589565
+  },
+  {
+    "word": "casa",
+    "frequence": 587832
+  },
+  {
+    "word": "tan",
+    "frequence": 573916
+  },
+  {
+    "word": "quién",
+    "frequence": 566465
+  },
+  {
+    "word": "sus",
+    "frequence": 562087
+  },
+  {
+    "word": "tiempo",
+    "frequence": 556996
+  },
+  {
+    "word": "dos",
+    "frequence": 556427
+  },
+  {
+    "word": "esa",
+    "frequence": 553442
+  },
+  {
+    "word": "nunca",
+    "frequence": 549997
+  },
+  {
+    "word": "dónde",
+    "frequence": 539643
+  },
+  {
+    "word": "va",
+    "frequence": 535397
+  }
+]
